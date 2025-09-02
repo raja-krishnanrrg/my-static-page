@@ -1,0 +1,215 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Times New Roman';
+}
+.container{
+    background-image: url(./images/bg\ image.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+   .pages ,ul ,li ,a{
+                display: inline;
+                padding: 20px;
+                text-decoration: none;
+                color: #fff;
+                    position: sticky;
+   }
+   .pages{
+        margin-left: 2%;
+    
+   }
+   .header02{
+     display: flex;
+   }
+   .logo img{
+        width: 80px;
+        height: 80px;
+   }
+    .types{
+        border: 1px none ;
+        border-radius: 1px;
+        margin-left: 10px;
+        width: 100px;
+   }
+   .types option{
+        color: #f00303e6;
+     }
+     .content{
+        text-align: center;
+     }
+     .homie{
+        font-size: 50px;
+        color: #fff;
+        margin-top: 12%;
+     }
+     .web01{
+        display: flex;
+         margin-left:33%;
+     }
+     .videoes{
+        border: 1px solid snow;
+        color: snow;
+         padding: 20px;
+           width: 140px;
+            text-transform: uppercase;
+     }
+     .videoes01{
+         border: 1px solid snow;
+          margin-left: 10px;
+          padding: 20px;
+           color: snow;
+             width: 140px;
+             text-transform: uppercase;
+     }
+     .videoes02{
+         border: 1px solid snow;
+         margin-left: 10px;
+         padding: 20px;
+          color: snow;
+          width: 140px;
+           text-transform: uppercase;
+     }
+    .videoes:hover
+    {
+     background-color: #fff;
+     color: black;
+     border-style: none;
+     border-radius: 20px;
+  }
+    .videoes01:hover
+    {
+     background-color: #fff;
+     color: black;
+     border-style: none;
+     border-radius: 20px;
+  }
+    .videoes02:hover
+    {
+     background-color: #fff;
+     color: black;
+     border-style: none;
+     border-radius: 20px;
+  }
+  .pages ul li a:hover{
+     background-color: #fff;
+     color: black;
+     border-radius: 5px; 
+  }
+  .types{
+   width: 200px;
+   height: 50px;
+  }
+  .types option:hover{
+   background-color: chocolate;
+   color: blue;
+  }
+  @media screen and (min-width:760px) and (max-width:1200px)
+ {
+   .header02{
+      display:block;
+   }
+   .pages{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+   }
+     .pages ,ul ,li ,a{
+         display: flex; 
+         justify-content: center;
+      flex-direction: column;
+      padding: 5px;     
+   }
+ 
+   
+   .container{
+     background-image: url(./images/bg\ image.jpg);
+     height: 100%;
+     width: 100%;
+    justify-items: center;
+
+   }  
+   
+   .pages ul li a:hover{
+     background-color: #fff;
+     color: black;
+     border-radius: 5px; 
+     height: fit-content;
+     width: fit-content;
+     padding: 15px;
+     
+  }
+  .web01{
+   display: flex;
+   flex-direction: column;
+   justify-items: center;
+   justify-content: space-between;
+  }
+  .videoes{
+   margin-left: 10px;
+  }
+  .videoes01{
+   margin: 10px;
+  }
+ }
+  
+ @media screen and (min-width:320px) and (max-width:760px)
+ {
+   .header02{
+      display:block;
+      justify-content: center;
+   }
+   .pages{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+   }
+     .pages ,ul ,li ,a{
+         display: flex; 
+         justify-content: center;
+      flex-direction: column;
+      padding: 5px;
+      
+          
+   }
+ 
+   
+   .container{
+     background-image: url(./images/bg\ image.jpg);
+     height: 100%;
+     width: 100%;
+     justify-items: center;
+
+   }
+   .web01{
+   display: flex;
+   flex-direction: column;
+   justify-items: center;
+   justify-content: space-between;
+   
+  }
+  .videoes
+  {
+   margin-left: 10px;
+  }
+  .videoes01
+  {
+   margin: 10px;
+  }
+    .homie{
+        font-size:35px;
+        color: #fff;
+        margin-top: 12%;
+        justify-content: center;
+     }
+      .pages ul li a:hover{
+     background-color: #fff;
+     color: black;
+     border-radius: 5px; 
+     height: fit-content;
+     width: fit-content;
+     padding: 15px; 
+  }
+}
